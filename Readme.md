@@ -54,11 +54,11 @@ use Fakell\BotMessenger\Types\ActionType;
 
 $messenger = Messenger::create(<PAGE_TOKEN>);
 // Mark seen last message
-$messenger->setActionSatus(<USER_ID>, ActionType::MARK_SEEN);
+$messenger->setActionStatus(<USER_ID>, ActionType::MARK_SEEN);
 // Set typing on
-$messenger->setActionSatus(<USER_ID>, ActionType::TYPING_ON);
+$messenger->setActionStatus(<USER_ID>, ActionType::TYPING_ON);
 // Set typing off
-$messenger->setActionSatus(<USER_ID>, ActionType::TYPING_OFF);
+$messenger->setActionStatus(<USER_ID>, ActionType::TYPING_OFF);
 
 ```
 
